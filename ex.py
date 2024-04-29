@@ -91,7 +91,7 @@ plt.hist(posLens, bins=[0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 
 # posp = st.norm.pdf(posx, posmu, posstd)
 
 # plt.plot(posx, posp, 'k', linewidth=2)
-p1.savefig("positve.png")
+p1.savefig("positive.png")
 # p1.show()
 
 p2 = plt.figure("Negative")
